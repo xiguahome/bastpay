@@ -1,7 +1,7 @@
 <?php
 /*
 //H5支付
-$pay = new pay([
+$pay = new Pay([
 	"p12"=>"p12文件地址",
 	"pem"=>"pem文件地址",
 	"merchantNo"=>"商户号",
@@ -19,7 +19,7 @@ $params = [
 ];
 return $pay->h5Pay($params);
  */
-class pay
+class Pay
 {
 
     private $h5gateway='https://mapi.bestpay.com.cn/mapi/form/cashier/H5/pay';
